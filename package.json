@@ -1,0 +1,57 @@
+{
+  "name": "dsh-boot-animation",
+  "version": "0.2.1-adapted.1",
+  "description": "Third-party boot-animation adaptation for official DSH Desktop/Electron 0.2.0-rc.2; original MIT media and transitions.",
+  "license": "MIT",
+  "author": "lxj5820",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myconstance1999-pixel/dsh-boot-animation-adapted.git"
+  },
+  "homepage": "https://github.com/myconstance1999-pixel/dsh-boot-animation-adapted#readme",
+  "bugs": {
+    "url": "https://github.com/myconstance1999-pixel/dsh-boot-animation-adapted/issues"
+  },
+  "type": "module",
+  "main": "entry.js",
+  "exports": {
+    ".": "./entry.js",
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "assets/videos",
+    "lib/client.js",
+    "src/boot-screen.js",
+    "cordis.patch.yml",
+    "entry.js",
+    "package.json",
+    "LICENSE",
+    "NOTICE.md",
+    "SOURCE_PROVENANCE.json"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": ">=3.18.4 <4"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "private": true,
+  "contributors": [
+    {
+      "name": "myconstance1999-pixel",
+      "url": "https://github.com/myconstance1999-pixel"
+    }
+  ]
+}

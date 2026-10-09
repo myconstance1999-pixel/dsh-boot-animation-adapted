@@ -1,0 +1,136 @@
+{
+  "distribution": {
+    "repository": "https://github.com/myconstance1999-pixel/dsh-boot-animation-adapted",
+    "package": "dsh-boot-animation",
+    "version": "0.2.1-adapted.1",
+    "entryId": "boot-animation",
+    "maintainer": "myconstance1999-pixel",
+    "relationship": "maintained third-party adaptation; no official or upstream endorsement claimed"
+  },
+  "upstream": {
+    "repository": "https://github.com/lxj5820/dsh-boot-animation",
+    "commit": "b8bfa8d9f879f14917033a7135e3964776865cad",
+    "packageVersion": "0.2.0",
+    "authorCredit": "lxj5820",
+    "license": "MIT",
+    "copyrightNotice": "Copyright (c) 2026 dsh-boot-animation contributors",
+    "mediaLicenseStatementSource": "https://github.com/lxj5820/dsh-boot-animation/blob/b8bfa8d9f879f14917033a7135e3964776865cad/LICENSE",
+    "mediaLicenseStatement": "Upstream states that the three .mp4 files are the author's own animation work and are distributed under the same MIT terms as the code.",
+    "mediaAttributionBoundary": "This records the upstream statement and makes no independent rights guarantee or adaptation-authorship claim.",
+    "unchangedFiles": [
+      {
+        "path": "LICENSE",
+        "upstreamUrl": "https://github.com/lxj5820/dsh-boot-animation/blob/b8bfa8d9f879f14917033a7135e3964776865cad/LICENSE",
+        "bytes": 1371,
+        "sha256": "6102f09827ca1cc7d537ada8c8e7da546a2b55d4f84a12c0f4762a10f01e9ef6",
+        "gitBlobSha1": "8d1eb64fef433a709bafd532ccd952c06b047260",
+        "modified": false
+      },
+      {
+        "path": "src/boot-screen.js",
+        "upstreamUrl": "https://github.com/lxj5820/dsh-boot-animation/blob/b8bfa8d9f879f14917033a7135e3964776865cad/src/boot-screen.js",
+        "bytes": 65108,
+        "sha256": "6c8c01f94ead14d22716d8cb636c7a45475438333d7a50f0cddaf6cce7701ec6",
+        "gitBlobSha1": "d9bde627bf7ace21d2a91f4b23377d72a2629804",
+        "modified": false
+      },
+      {
+        "path": "assets/videos/1.mp4",
+        "upstreamUrl": "https://github.com/lxj5820/dsh-boot-animation/blob/b8bfa8d9f879f14917033a7135e3964776865cad/assets/videos/1.mp4",
+        "bytes": 8391471,
+        "sha256": "970afeb9b8a981de88abc3997adba2d4aef7624d45b3deac9bab1033613ad937",
+        "gitBlobSha1": "3a215fb033067b67151c2caed1261493fa60a48a",
+        "modified": false
+      },
+      {
+        "path": "assets/videos/2.mp4",
+        "upstreamUrl": "https://github.com/lxj5820/dsh-boot-animation/blob/b8bfa8d9f879f14917033a7135e3964776865cad/assets/videos/2.mp4",
+        "bytes": 11065265,
+        "sha256": "95794b99c3ae4c3690ec2100e42a48dc79949111d565bb818e4aebfc90f45584",
+        "gitBlobSha1": "d899cf856eb6de8c774166333bb42abbf3e5ffc5",
+        "modified": false
+      },
+      {
+        "path": "assets/videos/3.mp4",
+        "upstreamUrl": "https://github.com/lxj5820/dsh-boot-animation/blob/b8bfa8d9f879f14917033a7135e3964776865cad/assets/videos/3.mp4",
+        "bytes": 5195581,
+        "sha256": "585143d714778d48eb8fba277d5a4771e65fb5210dd1ffe3803515da41424471",
+        "gitBlobSha1": "ac74e18fba0f9ce1230b651f9d513cd5d2d728d8",
+        "modified": false
+      }
+    ]
+  },
+  "adaptationChanges": [
+    "modern volatile Config and configForms/plugins.item integration",
+    "read-only media routes and client-carrier preservation; no media rewrite endpoint",
+    "readiness acknowledgement before optional settings wiring and owned disposal",
+    "one revision-fenced page-form mutation without a second write path",
+    "no-store retained on unsatisfiable Range responses",
+    "detached settings-card probes classify decoded current-frame data without requiring a presented-frame callback and retain known duration in decoded, refused, or timed-out results"
+  ],
+  "targetContract": {
+    "package": "@deepseek-ai/dsh",
+    "version": "0.2.0-rc.2",
+    "sourceTag": "dsh-v0.2.0-rc.2",
+    "sourceCommit": "639ed015397290b3745d163aafe02ffee4aa3f84",
+    "repository": "https://github.com/deepseek-ai/deepseek-harness",
+    "channelSelection": "npm latest/next at preparation time; release candidate, not a final stable release",
+    "officialBinaryGuiVerified": false,
+    "publicSourceContracts": [
+      {
+        "path": "apps/desktop/package.json",
+        "url": "https://github.com/deepseek-ai/deepseek-harness/blob/639ed015397290b3745d163aafe02ffee4aa3f84/apps/desktop/package.json",
+        "sha256": "eef6bc1131564aac2af0667487236edc5c1be721747b4ac81c9442937d34252c"
+      },
+      {
+        "path": "apps/desktop/src/main.ts",
+        "url": "https://github.com/deepseek-ai/deepseek-harness/blob/639ed015397290b3745d163aafe02ffee4aa3f84/apps/desktop/src/main.ts",
+        "sha256": "1fd424f16514d82d79665e0e8a1e2448dd8636126d3a37be7fa888d883b6ea3a"
+      },
+      {
+        "path": "apps/desktop/src/preload-app.ts",
+        "url": "https://github.com/deepseek-ai/deepseek-harness/blob/639ed015397290b3745d163aafe02ffee4aa3f84/apps/desktop/src/preload-app.ts",
+        "sha256": "cff269a4f049d276a44974c3c40008ceb9d6a0b35105a54d6605f7dcf59a64eb"
+      },
+      {
+        "path": "apps/web/src/main.ts",
+        "url": "https://github.com/deepseek-ai/deepseek-harness/blob/639ed015397290b3745d163aafe02ffee4aa3f84/apps/web/src/main.ts",
+        "sha256": "fde2d8134e55b2f463c19453e255bb64fda2e46380ff405b6a6d27f1398e208c"
+      },
+      {
+        "path": "packages/client/ui-settings/src/client/config-form-types.ts",
+        "url": "https://github.com/deepseek-ai/deepseek-harness/blob/639ed015397290b3745d163aafe02ffee4aa3f84/packages/client/ui-settings/src/client/config-form-types.ts",
+        "sha256": "d07124ee341f4245f2c806bb05316183a146cbb27ef497cc9e90bfc4e1134df0"
+      },
+      {
+        "path": "packages/client/ui-settings/src/client/config-form.ts",
+        "url": "https://github.com/deepseek-ai/deepseek-harness/blob/639ed015397290b3745d163aafe02ffee4aa3f84/packages/client/ui-settings/src/client/config-form.ts",
+        "sha256": "1548e0a7f8361f9d49b97918a47684d43ae59cc56c5ebc0d806d5b8457cec120"
+      },
+      {
+        "path": "packages/client/ui-plugin-manager/src/client/slot-contract.ts",
+        "url": "https://github.com/deepseek-ai/deepseek-harness/blob/639ed015397290b3745d163aafe02ffee4aa3f84/packages/client/ui-plugin-manager/src/client/slot-contract.ts",
+        "sha256": "26115c508b320885c4c91d6adf561bc8ed64917f3e3e4ab5303161b88c6b6120"
+      }
+    ]
+  },
+  "preservedDefaults": {
+    "clipSelection": "random among three original clips",
+    "enabled": true,
+    "enterMode": "tail",
+    "fadeMs": 2000,
+    "sound": true,
+    "soundBoundary": "browser autoplay policy applies",
+    "disabledClips": [],
+    "clickToEnter": false,
+    "showHint": true
+  },
+  "validationBoundary": {
+    "offlineFixture": "validation/first-load-offline.mjs",
+    "boundedChecks": 14,
+    "usesExplicitStubs": true,
+    "realRuntimeOrOfficialGuiAcceptance": false,
+    "nativeFirstFrameGuarantee": false,
+    "hashMeaning": "Hashes identify original bytes; they do not establish runtime correctness."
+  }
+}

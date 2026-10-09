@@ -1,0 +1,7 @@
+# Official DSH Desktop (Electron), @deepseek-ai/dsh 0.2.0-rc.2.
+# The entry id is the Config namespace consumed by the client settings card.
+# Optional fields: enabled, fadeMs (300..5000), enterMode (tail/end/click),
+# disabledClips, sound, clickToEnter, showHint. Defaults are declared in Config.
+- insert:
+    - id: boot-animation
+      name: dsh-boot-animation

@@ -1,0 +1,108 @@
+{
+  "reproductionCommand": "node validation/first-load-offline.mjs",
+  "actualInvocation": "/opt/homebrew/bin/node validation/first-load-offline.mjs",
+  "workingDirectory": "repository root",
+  "rawExitCode": 0,
+  "result": {
+    "scope": "offline stubs only; not official Desktop GUI, real DSH, React, schemastery, or media-decoder acceptance",
+    "selection": "full public distribution fixture",
+    "package": {
+      "name": "dsh-boot-animation",
+      "version": "0.2.1-adapted.1"
+    },
+    "target": {
+      "dsh": "0.2.0-rc.2",
+      "schemastery": "3.18.4"
+    },
+    "stubs": [
+      "schema declaration chains",
+      "Host service and transport",
+      "React hooks",
+      "configForms and slots lifecycle",
+      "detached media events and timers"
+    ],
+    "socketOpened": false,
+    "officialAppLaunched": false,
+    "modelRequested": false,
+    "count": 14,
+    "passed": 14,
+    "failed": 0,
+    "scratchCleaned": true,
+    "originalHashes": {
+      "src/boot-screen.js": "6c8c01f94ead14d22716d8cb636c7a45475438333d7a50f0cddaf6cce7701ec6",
+      "assets/videos/1.mp4": "970afeb9b8a981de88abc3997adba2d4aef7624d45b3deac9bab1033613ad937",
+      "assets/videos/2.mp4": "95794b99c3ae4c3690ec2100e42a48dc79949111d565bb818e4aebfc90f45584",
+      "assets/videos/3.mp4": "585143d714778d48eb8fba277d5a4771e65fb5210dd1ffe3803515da41424471"
+    },
+    "testedFiles": {
+      "entry.js": "1cd0f0b4a0b324c8cc6ea1c81c4e666beecdc5e0d4c724a49f7decbbc6277f2c",
+      "src/boot-screen.js": "6c8c01f94ead14d22716d8cb636c7a45475438333d7a50f0cddaf6cce7701ec6",
+      "src/client.js": "dc7e1fa52271e5f5aef2b63949171c822b24865281b83cb1a9274faa1041af88",
+      "lib/client.js": "dffb3765893ab26b52cfd8e16c93c3b03beadbfa1045fe3a2e83d69136df600f",
+      "package.json": "b2ce589db99172d1f2964783151558f1d57acdd92d0dea83457fd080053329ff",
+      "LICENSE": "6102f09827ca1cc7d537ada8c8e7da546a2b55d4f84a12c0f4762a10f01e9ef6",
+      "cordis.patch.yml": "dd28ad5605186cf5282c8febfb800e23b12865aa02237162c4dfc3b4180a3528",
+      "assets/videos/1.mp4": "970afeb9b8a981de88abc3997adba2d4aef7624d45b3deac9bab1033613ad937",
+      "assets/videos/2.mp4": "95794b99c3ae4c3690ec2100e42a48dc79949111d565bb818e4aebfc90f45584",
+      "assets/videos/3.mp4": "585143d714778d48eb8fba277d5a4771e65fb5210dd1ffe3803515da41424471"
+    },
+    "results": [
+      {
+        "name": "Config declares exactly seven defaulted volatile fields and supported bounds",
+        "status": "passed"
+      },
+      {
+        "name": "Host activates with only webServer and never calls legacy settings.register",
+        "status": "passed"
+      },
+      {
+        "name": "Latest .get values drive injections, bounds, disablement, and the clip manifest",
+        "status": "passed"
+      },
+      {
+        "name": "Clip GET, HEAD, inclusive Range, suffix Range, and 416 preserve transport contracts",
+        "status": "passed"
+      },
+      {
+        "name": "clientReady precedes React or optional-service failure without a required client inject",
+        "status": "passed"
+      },
+      {
+        "name": "plugins.item contribution exists only while configForms namespace is served and disposes",
+        "status": "passed"
+      },
+      {
+        "name": "Supplied page form owns state and one refused revision-fenced write without retry",
+        "status": "passed"
+      },
+      {
+        "name": "Official page form receives fresh parent-supplied state and revision after accepted mutation",
+        "status": "passed"
+      },
+      {
+        "name": "Without page form the namespace scope owns reads and mutation coherently",
+        "status": "passed"
+      },
+      {
+        "name": "Missing/null revision, unavailable, readonly, and non-mutating forms disable writes",
+        "status": "passed"
+      },
+      {
+        "name": "Collapsed card performs no manifest or media probe work",
+        "status": "passed"
+      },
+      {
+        "name": "Detached probes require decoded data, retain metadata, and release resources after success",
+        "status": "passed"
+      },
+      {
+        "name": "Detached probe timeout and refusal settle once and unmount removes listeners and timers",
+        "status": "passed"
+      },
+      {
+        "name": "Client wrapper equals its source and original boot-screen and video bytes are preserved",
+        "status": "passed"
+      }
+    ]
+  }
+}
